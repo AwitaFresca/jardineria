@@ -1,1 +1,35 @@
-<p>medicinas works!</p>
+<mat-card class="orden10">Medicinas hierbales</mat-card>
+
+<div class="orden1">
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <img class="tamaño1" src="https://extractos-vegetales.com/wp-content/uploads/2019/06/extracto-ginseng.jpg">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <p class="align1">
+                Usado como un tónico general para tonificar todo el cuerpo, el gingseng se considera útil para elevar los niveles de energía y aumentar la resistencia al estrés.
+            </p>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<mat-card></mat-card>
+
+<div class="orden1">
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <img class="tamaño1" src="https://www.hogarmania.com/archivos/201511/equinacea-planta-medicinal-668x400x80xX.jpg">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <p class="align1">
+                Usada con frecuencia para fortalecer el sistema inmunológico del cuerpo, la equinácea también se considera una prevención contra los resfriados y la gripe. Esta planta nativa de los EE. UU. se conoce también como equinácea purpúrea.
+
+            </p>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator>

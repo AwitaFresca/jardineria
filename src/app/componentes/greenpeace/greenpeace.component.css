@@ -1,0 +1,21 @@
+.orden2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.especial{
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+.reajustar{
+    height: 70%;
+    width: 70%;
+}
+
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  

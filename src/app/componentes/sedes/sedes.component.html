@@ -1,1 +1,43 @@
-<p>sedes works!</p>
+
+<mat-card class="orden10">Sedes</mat-card>
+
+<div class="orden1">
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <img class="tamaño1" src="https://p1.pxfuel.com/preview/934/95/735/building-photos-hawaii-honolulu.jpg">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <p class="align1">
+                Sede en Estados Unidos
+            </p>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<mat-card></mat-card>
+
+<div class="orden1">
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <img class="tamaño1" src="https://images.adsttc.com/media/images/5278/5ae2/e8e4/4e82/b000/0080/slideshow/View_from_East_copy.jpg?1383619279">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <p class="align">
+                Sede en Colombia
+            </p>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<mat-card>Elige una cita</mat-card>
+
+<div class="orden4">
+<mat-form-field appearance="fill">
+    <mat-label>Elige una fecha</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>
+
+

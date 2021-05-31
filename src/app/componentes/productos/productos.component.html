@@ -1,1 +1,53 @@
-<p>productos works!</p>
+
+
+<mat-card class="rezice">productos</mat-card>
+
+<div class="orden1">
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <img class="tamaño1" src="https://assets.tramontina.com.br/upload/tramon/imagens/MUL/77459434PNM001G.png">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <p class="align1">
+                pala de acero
+                <br>
+                -resistente
+                <br>
+                -robusta
+                <br>
+                -poco llamativa
+                <br>
+            </p>
+            <button class="orden2" mat-raised-button>Comprar</button>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<mat-card></mat-card>
+
+<div class="orden1">
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <img class="tamaño1" src="https://d3ugyf2ht6aenh.cloudfront.net/stores/913/526/products/regadera-plastica1-02ada4029db7d0fd0615645977017410-1024-1024.png">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <p class="align">
+                Regadera de plastico
+                <br>
+                -llamativa
+                <br>
+                -durable
+                <br>
+                -robusta
+                <br>
+            </p>
+            <button class="orden2" mat-raised-button>Comprar</button>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator>
+
